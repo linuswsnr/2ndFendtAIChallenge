@@ -1,0 +1,5 @@
+__pycache__/
+datensatz_sugarbeet
+img_bbox_dict.p
+YOLO_kFoldCrossValidation/datensatz_sugarbeet_Yolo
+DockerFendt.tar
