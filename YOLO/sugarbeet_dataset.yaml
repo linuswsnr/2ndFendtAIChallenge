@@ -1,0 +1,4 @@
+train: C:\Users\Philip\Documents\Fendt_KI_Challenge\yolo_training\output_train\images\train
+val: C:\Users\Philip\Documents\Fendt_KI_Challenge\yolo_training\output_train\images\val
+nc: 1  # Anzahl der Klassen (z. B. sugarbeet, weed, rock)
+names: ['sugarbeet']  # Klassenbezeichnungen
