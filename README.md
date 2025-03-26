@@ -18,30 +18,23 @@ Participants were provided with 300 labeled images. The task was to build an ima
 
 ## 🔍 Key aspects of the solution
 
-- **YOLOv11**: The latest YOLO version (YOLOv11) was used for object detection  
-- **Data Cleaning**: Around 25 diverse and potentially misleading test images were removed from the dataset  
+- **YOLOv11**: The latest YOLO version (YOLOv11) was used for object detection
+- **Data Preprocessing**: Around 25 diverse and potentially misleading test images were removed from the dataset to test the model 
 - **Augmentation Testing**: Various augmentation methods were applied and compared, including Albumentations, YOLO's built-in augmentation, and a combination of both  
 - **Image Resolution**: Training was conducted with relatively high-resolution images, which increased inference time (~1s) but improved detection accuracy  
-- **Model Selection**: Final model was chosen based on performance metrics and visual validation of predictions  
-- **Data Preprocessing**: Selecting and augmenting images for training and validation  
-- **Team Collaboration**: GitHub-based development workflow in a student team  
-
+- **Model Selection**: Final model was chosen based on performance metrics and visual validation of predictions
+  
 ## 💡 What I learned
 
 - Deepened my understanding of computer vision and convolutional neural networks (CNNs)  
 - Gained experience in dataset handling and preprocessing techniques  
 - Learned how to evaluate model performance in a meaningful way  
-- Improved collaboration in a Git-based team project  
 - Understood challenges specific to AI in agriculture (e.g., lighting conditions, plant variability, limited data)  
 
-## 🛠 Tech stack
-
-- Python  
-- YOLOv11  
-- OpenCV  
-- Albumentations  
-- TensorFlow / Keras  
-- NumPy, Matplotlib, Pandas  
-
 ## 📁 Structure
+
+- **YOLO\YoloSugarbeetDetector.ipynb**: build data struktur which is mandatory for yolo, train model, apply model
+- **YOLO_kFoldCrossValidation\YoloSugarbeetDetectorWithCrossValidation.ipynb**: same as YoloSugarbeetDetector.ipynb but with k-fold cross validation
+- **evaluation.py**: evaluate the model (provided by fendt)
+- **inference.py**: apply the model (provided by fendt)
 
