@@ -1,4 +1,5 @@
-train: C:\Users\Philip\Documents\Fendt_KI_Challenge\yolo_training\output_train\images\train
-val: C:\Users\Philip\Documents\Fendt_KI_Challenge\yolo_training\output_train\images\val
+path: C:/Users/linus/Documents/SoftwareProjects/2ndFendtAIChallenge/YOLO/datensatz_sugarbeet/splited_dataset/images
+train: train
+val: val
 nc: 1  # Anzahl der Klassen (z. B. sugarbeet, weed, rock)
 names: ['sugarbeet']  # Klassenbezeichnungen
