@@ -48,7 +48,7 @@ Participants were provided with 300 labeled images. The task was to build an ima
 
 - **YOLO\YoloSugarbeetDetector.ipynb**: builds data struktur which is mandatory for yolo, train model, apply model
 - **YOLO_kFoldCrossValidation\YoloSugarbeetDetectorWithCrossValidation.ipynb**: same as YoloSugarbeetDetector.ipynb but with k-fold cross validation
-- **evaluation.py**: evaluates the model (provided by fendt)
-- **inference.py**: applies the model (provided by fendt)
-- **testTheModel.ipynb** applies the final model with our test data set
+- **finalModel\evaluation.py**: evaluates the model (provided by fendt)
+- **finalModel\inference.py**: applies the model (provided by fendt)
+- **finalModel\testTheModel.ipynb** applies the final model with our test data set
 
