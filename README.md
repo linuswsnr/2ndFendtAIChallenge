@@ -20,7 +20,7 @@ Participants were provided with 300 labeled images. The task was to build an ima
 
 - **Data Preprocessing**: Around 25 diverse and potentially misleading test images were removed from the dataset to test the model 
 - **Augmentation Testing**: Various augmentation methods were applied and compared, including Albumentations, YOLO's built-in augmentation, and a combination of both  
-- **Image Resolution**: Training was conducted with relatively high-resolution images, which increased inference time (~1s) but improved the detection accuracy remarkeble
+- **Image Resolution**: Training was conducted with relatively high-resolution images, which increased inference time but improved the detection accuracy remarkeble
 - **Model Selection**: several models were trained. The final model was chosen based on the best performance metrics and visual validation of predictions
 
 ## 📊 Model Specifications:
